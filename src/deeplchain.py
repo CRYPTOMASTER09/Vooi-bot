@@ -16,15 +16,17 @@ last_log_message = None
 
 def _banner():
     banner = r"""
- ██╗████████╗███████╗     ██╗ █████╗ ██╗    ██╗
- ██║╚══██╔══╝██╔════╝     ██║██╔══██╗██║    ██║
- ██║   ██║   ███████╗     ██║███████║██║ █╗ ██║
- ██║   ██║   ╚════██║██   ██║██╔══██║██║███╗██║
- ██║   ██║   ███████║╚█████╔╝██║  ██║╚███╔███╔╝
- ╚═╝   ╚═╝   ╚══════╝ ╚════╝ ╚═╝  ╚═╝ ╚══╝╚══╝  """ 
+ 
+ ██████ ██████  ██    ██ ██████  ████████  ██████      ███    ███  █████  ███████ ████████ ███████ ██████  
+██      ██   ██  ██  ██  ██   ██    ██    ██    ██     ████  ████ ██   ██ ██         ██    ██      ██   ██ 
+██      ██████    ████   ██████     ██    ██    ██     ██ ████ ██ ███████ ███████    ██    █████   ██████  
+██      ██   ██    ██    ██         ██    ██    ██     ██  ██  ██ ██   ██      ██    ██    ██      ██   ██ 
+ ██████ ██   ██    ██    ██         ██     ██████      ██      ██ ██   ██ ███████    ██    ███████ ██   ██ 
+                                                                                                                                                                                                                 
+  """ 
     print(Fore.GREEN + Style.BRIGHT + banner + Style.RESET_ALL)
     print(hju + f" Vooi Bot - Autotrade, Open Position, Complete Quest")
-    print(mrh + f" FREE TO USE = Join us on {pth}t.me/DEEPLCHAIN")
+    print(mrh + f" FREE TO USE = Join us on {pth}t.me/airdropconfirm97")
     print(mrh + f" before start please '{hju}git pull{mrh}' to update bot")
     log_line()
 
