@@ -1,0 +1,4 @@
+cloudscraper==1.2.60
+colorama==0.4.6
+python-dateutil==2.8.2
+pytz==2023.3
